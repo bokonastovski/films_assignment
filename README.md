@@ -20,9 +20,9 @@ This is a React application that fetches and displays Star Wars films using Grap
 ### Installation
 
 1.  **Clone the repository:**
-2.  `git clone https://github.com/bokonastovski/films_assignment.git`  
+  `git clone https://github.com/bokonastovski/films_assignment.git`  
     
-3.  **Install dependencies:**
+2.  **Install dependencies:**
 
     Using npm:  
     `npm install`
@@ -30,13 +30,13 @@ This is a React application that fetches and displays Star Wars films using Grap
     Or using yarn:  
     `yarn install`
 
-4.  **Start the development server:**
+3.  **Start the development server:**
 
-Using npm:  
- `npm run dev`
+    Using npm:  
+     `npm run dev`
 
-Or using yarn:  
- `yarn dev`
+    Or using yarn:  
+     `yarn dev`
 
 ### Application Features
 
