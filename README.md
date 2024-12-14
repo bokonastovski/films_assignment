@@ -1,50 +1,69 @@
-# React + TypeScript + Vite
+# Star Wars Films App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that fetches and displays Star Wars films using GraphQL via Apollo Client. The app allows users to filter films by director and release year, and it provides a sorting feature for the films.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- Apollo Client (for GraphQL data fetching)
+- Ant Design (UI components)
+- Context API (for language settings)
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js (v16.x or higher)
+- npm or yarn
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. **Clone the repository:**
+2. 
+   `git clone https://github.com/your-username/star-wars-films-app.git`  
+   `cd star-wars-films-app`
+   
+3. **Install dependencies:**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   Using npm:  
+   `npm install`
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   Or using yarn:  
+   `yarn install`
+
+4. **Start the development server:**
+
+  Using npm:  
+   `npm run dev`
+
+   Or using yarn:  
+   `yarn dev`
+
+### Application Features
+
+- **Film Listings:** Displays a list of Star Wars films with details such as episode, director, release date, and producers.
+- **Filtering:** You can filter films by director and release year.
+- **Sorting:** Films can be sorted by title or release date.
+- **Infinite Scroll:** As you scroll, more films are loaded automatically.
+- **Language Support:** The app supports both English and German. You can switch languages via the context.
+
+### Apollo Client Configuration
+
+The app uses Apollo Client to fetch data from the Star Wars GraphQL API.
+
+- **API URL:** `https://swapi-graphql.netlify.app/.netlify/functions/index`
+- The Apollo Client is configured in `apollo-client.ts`.
+
+### Language Context
+
+The language settings are managed using React's Context API. You can switch between English and German by interacting with the UI, and the language preference will be applied to the whole app.
+
+### Customization
+
+- To add more languages or modify existing translations, update the `translations.ts` file.
+- If you need to modify the GraphQL queries, update `queries.ts`.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
