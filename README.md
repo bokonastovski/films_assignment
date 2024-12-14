@@ -34,13 +34,11 @@ This is a React application that fetches and displays Star Wars films using Grap
 
 4. **Start the development server:**
 
-   Using npm:  
-   `npm start`
+  Using npm:  
+   `npm run dev`
 
    Or using yarn:  
-   `yarn start`
-
-   This will run the application on `http://localhost:3000`.
+   `yarn dev`
 
 ### Application Features
 
