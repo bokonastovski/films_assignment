@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #232946;
+  margin: 0;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.pink-bg-color {
+  background-color: #eebbc3;
+}
+.purple-bg-color {
+  background-color: #b8c1ec;
+}
+
+.dark-blue-color {
+  color: #232946;
+}
+.white-color {
+  color: #fffffe;
+}
+.pink-color {
+  color: #eebbc3;
+}
+
+.margin-8 {
+  margin: 8px;
+}
+.margin-1-rem {
+  margin-bottom: 1rem;
+}
+.margin-right-1rem {
+  margin-right: 1rem;
+}
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2.5rem;
+}
+/* Custom background color for the Select input area */
+.custom-select .ant-select-selector {
+  background-color: #b8c1ec !important; /* Set your background color */
+  border-radius: 4px; /* Optional: for rounded corners */
+  color: #000; /* Optional: Set text color */
+}
+
+/* Optional: Custom background for the dropdown menu */
+.ant-select-dropdown,
+.ant-select-selector {
+  background-color: #b8c1ec !important; /* Set your background color */
+}
+
+/* Optional: Change hover/selected item background color */
+.ant-select-item-option-selected,
+.ant-select-item-option:hover {
+  background-color: #eebbc3 !important; /* Set your hover/selected color */
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+}
