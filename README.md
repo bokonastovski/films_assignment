@@ -19,26 +19,24 @@ This is a React application that fetches and displays Star Wars films using Grap
 
 ### Installation
 
-1. **Clone the repository:**
-2. 
-   `git clone https://github.com/your-username/star-wars-films-app.git`  
-   `cd star-wars-films-app`
-   
-3. **Install dependencies:**
+1.  **Clone the repository:**
+2.  `git clone https://github.com/your-username/star-wars-films-app.git`  
+    `cd star-wars-films-app`
+3.  **Install dependencies:**
 
-   Using npm:  
-   `npm install`
+    Using npm:  
+    `npm install`
 
-   Or using yarn:  
-   `yarn install`
+    Or using yarn:  
+    `yarn install`
 
-4. **Start the development server:**
+4.  **Start the development server:**
 
-  Using npm:  
-   `npm run dev`
+Using npm:  
+ `npm run dev`
 
-   Or using yarn:  
-   `yarn dev`
+Or using yarn:  
+ `yarn dev`
 
 ### Application Features
 
@@ -63,7 +61,3 @@ The language settings are managed using React's Context API. You can switch betw
 
 - To add more languages or modify existing translations, update the `translations.ts` file.
 - If you need to modify the GraphQL queries, update `queries.ts`.
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
