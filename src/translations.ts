@@ -5,8 +5,8 @@ export const translations = {
     director: "Director",
     releaseDate: "Release Date",
     producers: "Producers",
-    releaseYear: "Release Year", // Added this line
-    sortBy: "Sort By", // Added this line
+    releaseYear: "Release Year", 
+    sortBy: "Sort By", 
     noFilms: "No films available.",
     loadMore: "Load More",
   },
@@ -16,8 +16,8 @@ export const translations = {
     director: "Regisseur",
     releaseDate: "Erscheinungsdatum",
     producers: "Produzenten",
-    releaseYear: "Erscheinungsjahr", // Added this line
-    sortBy: "Sortieren nach", // Added this line
+    releaseYear: "Erscheinungsjahr", 
+    sortBy: "Sortieren nach", 
     noFilms: "Keine Filme verfügbar.",
     loadMore: "Mehr laden",
   },
